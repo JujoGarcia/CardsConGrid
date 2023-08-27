@@ -17,9 +17,10 @@ body{
     min-width: 12vw;
     background-size: cover;
     background-position: 50%;
-    /* border: 2px solid #fff; */
+    padding: 2px;
     border-radius: 0.5em;
-    box-shadow: 4px black;
+    box-sizing: border-box;
+    transition: border 0.1s;
 }
 
 .contenedorTarjetas{
@@ -34,4 +35,14 @@ body{
     background-size: cover;
     background-position: 0%;
     border-radius: 0.5em;
+    padding: 2px;
+    box-sizing: border-box;
+    transition: border 0.1s;
+}
+
+
+.card:hover, .contenedorAsociate:hover{
+    border: 2px solid #992222;
+    /* box-shadow: 4px 4px 8px rgba(0, 0, 0); */
+    padding: 0px;
 }
