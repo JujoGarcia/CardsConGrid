@@ -58,17 +58,17 @@ body{
 }
 
 .contenedorAsociate h3{
-    font-size: 3em;
+    font-size: 2.5vw;
     color: #fff;
     text-shadow: rgb(255, 0, 0) 1px 0 10px;
 }
 
 .card .botonComprar{
-    top: -0.8em;
+    top: -1.2vh;
 }
 
 .contenedorAsociate .botonComprar{
-    top: 25vh;
+    top: 20vh;
 }
 
 .botonComprar{
@@ -84,13 +84,13 @@ body{
   cursor: pointer;
   display: inline-flex;
   font-family: "JetBrains Mono",monospace;
-  height: 48px;
+  height: 5vh;
   justify-content: center;
   line-height: 1;
   list-style: none;
   overflow: hidden;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 1vw;
+  padding-right: 1vw;
   position: relative;
   text-align: left;
   text-decoration: none;
