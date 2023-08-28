@@ -26,19 +26,16 @@ body{
     transition: border 0.1s;
     color: #000;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: end;
     align-items: center;
     font-size: 1.5em;
 }
 
-/* h3{
-    -webkit-text-stroke: 0.01px rgb(124, 123, 123);
-} */
-
 .contenedorTarjetas{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
     gap: 20px;
 }
 
@@ -55,21 +52,42 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+}
+
+.contenedorAsociate .botonComprar{
+    /* margin-top: auto; */
 }
 
 .contenedorAsociate h3{
     font-size: 2.5vw;
     color: #fff;
     text-shadow: rgb(255, 0, 0) 1px 0 10px;
+    margin-top: auto;
 }
 
 .card .botonComprar{
     top: -1.2vh;
 }
 
-.contenedorAsociate .botonComprar{
-    top: 20vh;
+.divBoton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50%;
+    width: 100%;
+    margin-bottom: 1.2vh;
 }
+
+.divTexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+}
+
 
 .botonComprar{
     /* top: -0.8em; */
@@ -85,6 +103,7 @@ body{
   display: inline-flex;
   font-family: "JetBrains Mono",monospace;
   height: 5vh;
+  width: 8vw;
   justify-content: center;
   line-height: 1;
   list-style: none;
@@ -109,6 +128,7 @@ body{
     /* box-shadow: 4px 4px 8px rgba(0, 0, 0); */
     padding: 0px;
 }
+
 
 .botonComprar:focus {
     box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
